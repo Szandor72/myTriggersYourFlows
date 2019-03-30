@@ -1,6 +1,8 @@
 {
-  "orgName": "Demo Company",
-  "edition": "Developer",
+  "orgName": "MyTriggersYourFlows",
+  "edition": "Enterprise",
+  "language": "en_US",
+  "country": "US",
   "features": [],
   "settings": {
     "orgPreferenceSettings": {
