@@ -25,6 +25,10 @@
                 <behavior>Readonly</behavior>
                 <field>methodName__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>TriggerOperation__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

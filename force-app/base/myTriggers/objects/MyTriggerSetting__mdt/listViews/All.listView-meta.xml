@@ -3,10 +3,10 @@
     <fullName>All</fullName>
     <columns>Event__c</columns>
     <columns>Order__c</columns>
-	<columns>SObject__c</columns>
+    <columns>sObject__c</columns>
     <columns>DeveloperName</columns>
-    <columns>ClassNamespacePrefix__c</columns>
     <columns>Class__c</columns>
+    <columns>Active__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>
