@@ -19,6 +19,7 @@ public with sharing class DebugEntryService {
 			entry.startDateTime__c = log.startDateTime__c;
 			entry.logEntryJSON__c = log.LogEntriesJSON__c;
             entry.TriggerOperation__c = log.TriggerOperation__c;
+            entry.ExceptionThrown__c = log.logEntriesJSON__c.contains('Exception on line: ');
 
 			if (AppConfigSupport.saveAllLogs) {
 				newDebugEntries.add(entry);

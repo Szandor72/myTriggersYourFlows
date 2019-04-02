@@ -3,11 +3,11 @@
     <fullName>All</fullName>
     <columns>NAME</columns>
     <columns>startDateTime__c</columns>
-    <columns>methodName__c</columns>
     <columns>className__c</columns>
-    <columns>TriggerOperation__c</columns>
+    <columns>methodName__c</columns>
+    <columns>ExceptionThrown__c</columns>
     <columns>cpuTimeUsage__c</columns>
-    <columns>CREATED_DATE</columns>
+    <columns>TriggerOperation__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>

@@ -1,5 +1,5 @@
 public with sharing class AccountsService {
-    private class AccountsServiceException extends Exception {}
+    public class AccountsServiceException extends Exception {}
 		
     public static void validateType(List<Account> accountsToValidate) {
         Logger.push();
